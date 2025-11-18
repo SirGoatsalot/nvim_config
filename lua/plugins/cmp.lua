@@ -30,12 +30,10 @@ return {
     			      -- require("cmp.config").set_onetime({ sources = {} })
     			    end,
 				},
-				
 				window = {
 					completion = cmp.config.window.bordered(),
 					documentation = cmp.config.window.bordered(),
 				},
-
   		  		mapping = cmp.mapping.preset.insert({
 
   		  	  		-- Navigate between completion items
@@ -58,7 +56,6 @@ return {
   		  	  			vim.snippet.expand(args.body)
   		  	  		end,
   		  	  	},
-				
 				sources = cmp.config.sources(
 					{
 						{ name = 'nvim_lsp' },

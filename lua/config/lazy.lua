@@ -35,4 +35,5 @@ require("lazy").setup({
 })
 
 vim.g.snacks_animate = false
+vim.lsp.enable("pico8-ls")
 

@@ -14,3 +14,5 @@ vim.keymap.set("t", "<Esc>", "<C-\\><C-n>", { desc = 'Exit terminal mode' })
 vim.keymap.set("t", "<A-esc>", "<C-\\><C-n><C-w>h", { desc = 'Exit terminal mode, move back to left buffer' })
 vim.keymap.set("n", "<A-esc>", "<C-w>li", { desc = 'Enter terminal to right' })
 
+-- Diagnostic on leader d
+vim.keymap.set("n", "<leader>d", "<C-w><d>", { desc = 'Show diagnostic under cursor' });
