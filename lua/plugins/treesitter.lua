@@ -1,5 +1,8 @@
 return {
 	{
+		"paradoxskin/tree-sitter-pico8"
+	},
+	{
 		"nvim-treesitter/nvim-treesitter",
 		branch = 'master',
 		lazy = false,
